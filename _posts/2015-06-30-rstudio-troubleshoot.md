@@ -3,8 +3,6 @@ title: rstudio.troubleshooting
 layout: default
 ---
 
-
-    
 During startup - Warning messages:
 
     1: Setting LC_CTYPE failed, using “C”
@@ -15,10 +13,10 @@ During startup - Warning messages:
 
 ## `en solution`
 
-### 1 Open Terminal
-### 2 Write or paste in:
+    1 Open Terminal
+    2 Write or paste in:
 
     defaults write org.R-project.R force.LANG en_US.UTF-8
 
-### 3 Close Terminal
-### 4 Start R
+    3 Close Terminal
+    4 Start R
