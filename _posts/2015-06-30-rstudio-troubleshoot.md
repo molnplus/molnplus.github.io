@@ -1,6 +1,8 @@
-# rstudio.troubleshooting
+---
+title: rstudio.troubleshooting
+layout: default
+---
 
-<!-- create time: 2015-06-30 15:40:20  -->
 
     
 During startup - Warning messages:
