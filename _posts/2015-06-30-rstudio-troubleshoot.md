@@ -1,6 +1,6 @@
 ---
 title: rstudio.troubleshooting
-layout: default
+layout: post
 ---
 
 During startup - Warning messages:
