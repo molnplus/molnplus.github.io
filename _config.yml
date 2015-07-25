@@ -2,7 +2,7 @@
 title: molnplus newsletters
 email: wang.hu.molnplus@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  molnplus is an  *in silico* lab for computational health science 
+  The molnplus is an  in silico lab for computational health science.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: huWUNGplus
