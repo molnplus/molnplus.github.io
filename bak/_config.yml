@@ -1,0 +1,15 @@
+# Site settings
+title: molnplus newsletters
+email: wang.hu.molnplus@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+    molnplus是一個計算健康科學實驗室。
+    在現階段，我們利用經典統計學和機器學習來分析臨床檢驗醫學所獲得的各種醫療數據，結合分子生物學和組學(omics)的研究手段，從而獲得疾病早期診斷相關的知識。
+baseurl: "" # the subpath of your site, e.g. /blog/
+<<<<<<< HEAD
+url: "http://molnplus.github.io" # the base hostname & protocol for your site
+twitter_username: huWUNGplus
+github_username:  molnplus
+>>>>>>> FETCH_HEAD
+
+# Build settings
+markdown: kramdown
