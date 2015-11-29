@@ -9,8 +9,8 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
 # User setting
-owner:
-email: 
+owner: hugo hoover (hu Wong)
+email: wang.hu.molnplus@gmail.com
 facebook_username: Hu Wong
 twitter_username: huWUNGplus
 github_username: 
