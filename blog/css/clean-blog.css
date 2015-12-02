@@ -1,3 +1,9 @@
+/*!
+ * Clean Blog v1.0.0 (http://startbootstrap.com)
+ * Copyright 2014 Start Bootstrap
+ * Licensed under Apache 2.0 (https://github.com/IronSummitMedia/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
 body {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 20px;
@@ -41,7 +47,6 @@ hr.small {
   border-color: white;
 }
 .navbar-custom {
-  background: white;
   position: absolute;
   top: 0;
   left: 0;
@@ -128,8 +133,8 @@ hr.small {
   }
 }
 .intro-header {
-  background: no-repeat center center;
   background-color: #808080;
+  background: no-repeat center center;
   background-attachment: scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -349,16 +354,9 @@ form .row:first-child .floating-label-form-group {
   font-size: 14px;
   font-weight: 800;
   letter-spacing: 1px;
-  padding: 10px 5px;
+  padding: 15px 25px;
   background-color: white;
   border-radius: 0;
-}
-@media only screen and (min-width: 768px) {
-  .pager li > a,
-  .pager li > span {
-    font-size: 14px;
-    padding: 15px 25px;
-  }
 }
 .pager li > a:hover,
 .pager li > a:focus {
