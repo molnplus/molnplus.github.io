@@ -1,5 +1,5 @@
 /*
-	Spatial by TEMPLATED
+	Ion by TEMPLATED
 	templated.co @templatedco
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
@@ -10,36 +10,18 @@
 		font-size: 11pt;
 	}
 
-	header.major {
-		margin-bottom: 4em;
-	}
-
-		header.major h2 {
-			font-size: 2.5em;
-		}
-
-		header.major p {
-			font-size: 1.3em;
-		}
-
-/* Feature */
-
-	.feature-grid .feature {
-		margin-bottom: 2em;
-	}
-
 /* Banner */
 
 	#banner {
-		padding: 14em 0 11em 0;
+		padding: 8em 0;
 	}
 
 		#banner h2 {
 			font-size: 2.5em;
 		}
 
-/* Wrapper */
+/* Footer */
 
-	.wrapper.style3 header.major {
-		margin-bottom: 2em;
+	#footer {
+		padding: 4em 0;
 	}

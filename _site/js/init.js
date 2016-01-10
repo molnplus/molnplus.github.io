@@ -1,5 +1,5 @@
 /*
-	Spatial by TEMPLATED
+	Ion by TEMPLATED
 	templated.co @templatedco
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
@@ -9,81 +9,114 @@
 	skel.init({
 		reset: 'full',
 		breakpoints: {
-			global: {
-				href: 'css/style.css',
-				containers: 1400,
-				grid: { gutters: ['2em', 0] }
-			},
-			xlarge: {
-				media: '(max-width: 1680px)',
-				href: 'css/style-xlarge.css',
-				containers: 1200
-			},
-			large: {
-				media: '(max-width: 1280px)',
-				href: 'css/style-large.css',
-				containers: 960,
-				grid: { gutters: ['1.5em', 0] },
-				viewport: { scalable: false }
-			},
-			medium: {
-				media: '(max-width: 980px)',
-				href: 'css/style-medium.css',
-				containers: '90%!'
-			},
-			small: {
-				media: '(max-width: 736px)',
-				href: 'css/style-small.css',
-				containers: '90%!',
-				grid: { gutters: ['1.25em', 0] }
-			},
-			xsmall: {
-				media: '(max-width: 480px)',
-				href: 'css/style-xsmall.css'
-			}
+			
+			// Global.
+				global: {
+					range: '*',
+					href: '/Ion-Jekyll-Theme/css/style.css',
+					containers: 1400,
+					grid: {
+						gutters: {
+							vertical: '4em',
+							horizontal: 0
+						}
+					}
+				},
+
+			// XLarge.
+				xlarge: {
+					range: '-1680',
+					href: '/Ion-Jekyll-Theme/css/style-xlarge.css',
+					containers: 1200
+				},
+
+			// Large.
+				large: {
+					range: '-1280',
+					href: '/Ion-Jekyll-Theme/css/style-large.css',
+					containers: 960,
+					grid: {
+						gutters: {
+							vertical: '2.5em'
+						}
+					},
+					viewport: {
+						scalable: false
+					}
+				},
+
+			// Medium.
+				medium: {
+					range: '-980',
+					href: '/Ion-Jekyll-Theme/css/style-medium.css',
+					containers: '90%',
+					grid: {
+						collapse: 1
+					}
+				},
+
+			// Small.
+				small: {
+					range: '-736',
+					href: '/Ion-Jekyll-Theme/css/style-small.css',
+					containers: '90%',
+					grid: {
+						gutters: {
+							vertical: '1.25em'
+						}
+					}
+				},
+
+			// XSmall.
+				xsmall: {
+					range: '-480',
+					href: '/Ion-Jekyll-Theme/css/style-xsmall.css',
+					grid: {
+						collapse: 2
+					}
+				}
+
 		},
 		plugins: {
 			layers: {
-				navPanel: {
-					animation: 'pushX',
-					breakpoints: 'medium',
-					clickToHide: true,
-					height: '100%',
-					hidden: true,
-					html: '<div data-action="moveElement" data-args="nav"></div>',
-					orientation: 'vertical',
-					position: 'top-left',
-					side: 'left',
-					width: 250
-				},
-				navButton: {
-					breakpoints: 'medium',
-					height: '4em',
-					html: '<span class="toggle" data-action="toggleLayer" data-args="navPanel"></span>',
-					position: 'top-left',
-					side: 'top',
-					width: '6em'
-				}
+				
+				// Config.
+					config: {
+						transform: true
+					},
+				
+				// Navigation Panel.
+					navPanel: {
+						animation: 'pushX',
+						breakpoints: 'medium',
+						clickToHide: true,
+						height: '100%',
+						hidden: true,
+						html: '<div data-action="moveElement" data-args="nav"></div>',
+						orientation: 'vertical',
+						position: 'top-left',
+						side: 'left',
+						width: 250
+					},
+
+				// Navigation Button.
+					navButton: {
+						breakpoints: 'medium',
+						height: '4em',
+						html: '<span class="toggle" data-action="toggleLayer" data-args="navPanel"></span>',
+						position: 'top-left',
+						side: 'top',
+						width: '6em'
+					}
+
 			}
 		}
 	});
 
 	$(function() {
-
-		var	$window = $(window),
-			$body = $('body');
-
-		// Disable animations/transitions until the page has loaded.
-			$body.addClass('is-loading');
-
-			$window.on('load', function() {
-				$body.removeClass('is-loading');
-			});
-
-		// Touch mode.
-			if (skel.vars.isMobile)
-				$body.addClass('is-touch');
-
+		
+		// jQuery ready stuff.
+		
 	});
 
 })(jQuery);
