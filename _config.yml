@@ -14,21 +14,21 @@ sass:
   style: compressed # expanded
 
 # SEO settings
-title: end2end
+title: molnplus lab
 description: "A free Jekyll theme for download"
 keywords: "Jekyll, theme, free, download, SEO, blog, web"
-url: http://nandomoreira.me
+url:
 baseurl: ""
 # baseurl: ""
 
 # google_analytics: UA-52446115-1
-repo: http://github.com/nandomoreirame/end2end
-disqus_shortname: "fernandomoreira"
+repo:
+disqus_shortname: ""
 
 # Author settings
 author:
-  name      : Fernando Moreira
-  job       : Frontend Engineer
+  name      : Hu Frank WONG
+  job       :
   bio       : "Enthusiast performance, responsive design and usability, always looking for the best project and good coffee."
   thumb     : /images/author.jpg
   email     : nandomoreira.me@gmail.com
