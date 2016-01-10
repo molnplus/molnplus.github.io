@@ -14,29 +14,29 @@ sass:
   style: compressed # expanded
 
 # SEO settings
-title: molnplus lab
-description: "Molecular Biology, Machine Learning &amp; Data Science"
-keywords: "blog, html, d3js"
-url:
-baseurl: ""
+title: end2end
+description: "A free Jekyll theme for download"
+keywords: "Jekyll, theme, free, download, SEO, blog, web"
+url: http://nandomoreira.me
+baseurl: "/end2end"
 # baseurl: ""
 
 # google_analytics: UA-52446115-1
-repo:
-disqus_shortname: ""
+repo: http://github.com/nandomoreirame/end2end
+disqus_shortname: "fernandomoreira"
 
 # Author settings
 author:
-  name      : Hu Frank WONG
-  job       : Vater, Geek und Daten-Wissenschaftler
-  bio       : "Data science is one of the futures."
+  name      : Fernando Moreira
+  job       : Frontend Engineer
+  bio       : "Enthusiast performance, responsive design and usability, always looking for the best project and good coffee."
   thumb     : /images/author.jpg
-  email     : wang.hu.molnplus@gmail.com
-  url       : molnplus.github.io
-  github    : http://github.com/molnplus
-  twitter   : http://twitter.com/molnplus lab
-  facebook  : http://facebook.com/huWONG
-  linkedin  : http://linkedin.com/in/
+  email     : nandomoreira.me@gmail.com
+  url       : http://nandomoreira.me
+  github    : http://github.com/nandomoreirame
+  twitter   : http://twitter.com/nandomoreirame
+  facebook  : http://facebook.com/fernando.dev
+  linkedin  : http://linkedin.com/in/nandomoreirame
 
 # navbar pages
 navbar:
