@@ -4,13 +4,41 @@
  <title>Fenomen | 現象</title>
  <link href="http://camporez.com/atom.xml" rel="self"/>
  <link href="http://camporez.com/"/>
- <updated>2016-03-04T19:44:26+08:00</updated>
+ <updated>2016-03-05T18:47:13+08:00</updated>
  <id>http://camporez.com</id>
  <author>
    <name>Hugo Hoover</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>git tips 2016-03-05</title>
+   <link href="http://camporez.com/blog/git-tips"/>
+   <updated>2016-03-05T00:00:00+08:00</updated>
+   <id>http://camporez.com/blog/git-tips</id>
+   <content type="html">&lt;p&gt;&lt;code&gt;-u, --set-upstream&lt;/code&gt;
+For every branch that is up to date or successfully pushed, add upstream (tracking) reference, used by argument-less git-pull(1) and other commands.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>git pages</title>
+   <link href="http://camporez.com/blog/git-pages-bernstein"/>
+   <updated>2016-03-05T00:00:00+08:00</updated>
+   <id>http://camporez.com/blog/git-pages-bernstein</id>
+   <content type="html">&lt;h3&gt;sources&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html&quot;&gt;blogging with jekyll&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;code&gt;-u, --set-upstream&lt;/code&gt;
+For every branch that is up to date or successfully pushed, add upstream (tracking) reference, used by argument-less git-pull(1) and other commands.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.wp-b.com/media/2016-3-4/FVecF7f8e-.jpg&quot; alt=&quot;image&quot;&gt;&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>信息反饋的管道</title>
