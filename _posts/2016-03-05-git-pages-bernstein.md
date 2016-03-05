@@ -14,3 +14,6 @@ video: false
 For every branch that is up to date or successfully pushed, add upstream (tracking) reference, used by argument-less git-pull(1) and other commands.
 
 ![image](http://i.wp-b.com/media/2016-3-4/FVecF7f8e-.jpg)
+
+## Principle
+在 GitHub 上有一个账号，名为username(任意)， 有一个项目，名为 username.github.io(固定格式，username与账号名一致)， 项目分支名为 master(固定)。
