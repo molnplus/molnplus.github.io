@@ -9,6 +9,7 @@ video: false
 ### sources
 
 - [blogging with jekyll](http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html)
+- [official-cn](http://jekyllcn.com/docs/github-pages/)
 
 `-u, --set-upstream`
 For every branch that is up to date or successfully pushed, add upstream (tracking) reference, used by argument-less git-pull(1) and other commands.
