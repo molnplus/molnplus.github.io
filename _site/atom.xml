@@ -4,13 +4,45 @@
  <title>Fenomen | 現象</title>
  <link href="http://camporez.com/atom.xml" rel="self"/>
  <link href="http://camporez.com/"/>
- <updated>2016-03-04T17:59:35+08:00</updated>
+ <updated>2016-03-04T19:44:26+08:00</updated>
  <id>http://camporez.com</id>
  <author>
    <name>Hugo Hoover</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>信息反饋的管道</title>
+   <link href="http://camporez.com/blog/dasprojektz-direction"/>
+   <updated>2016-03-04T00:00:00+08:00</updated>
+   <id>http://camporez.com/blog/dasprojektz-direction</id>
+   <content type="html">&lt;h2&gt;an idea&lt;/h2&gt;
+
+&lt;p&gt;信息反饋的方法&lt;/p&gt;
+
+&lt;p&gt;git repo是比較好的，
+因為我可以直接進行信息挖掘。
+但是需要培訓。&lt;/p&gt;
+
+&lt;p&gt;可以協作的在線筆記也是被選項。
+但是要進行複製粘貼。
+或者我們可以進行scrapy。&lt;/p&gt;
+
+&lt;h3&gt;然後進行svm數據庫的構建&lt;/h3&gt;
+
+&lt;p&gt;對指標進行量化&lt;/p&gt;
+
+&lt;h2&gt;fate&lt;/h2&gt;
+
+&lt;p&gt;數據庫和分析方法可以直接賣掉。
+缺點是我們可能選擇了退出機制。&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;困難是分析方法。&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Hello, Hoover</title>
