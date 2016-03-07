@@ -11,7 +11,7 @@ permalink:	/blog/:title
 title:		Fenomen | 現象
 tagline:	'blog'
 description:	'My personal blog.'
-url:		http://camporez.com
+url:		127.0.0.1:4000
 
 author:
   name:		'Hugo Hoover'
