@@ -41,10 +41,13 @@ social:
 
 menu:
   - title:	Home
-    url:	/
+    url:    /index.html
 
   - title:	About
     url:	/about
+
+  - title:	molnplus
+    url:	/molnplus
 
 copyright:
   author:	molnplus
