@@ -1,1 +1,4 @@
 _site
+.gitignore
+blog
+assets/images/full
