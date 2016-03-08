@@ -11,7 +11,7 @@ permalink:	/blog/:title
 title:		Fenomen | 現象
 tagline:	'blog'
 description:	'My personal blog.'
-url:		127.0.0.1:4000
+url:		https://huwung.github.io
 
 author:
   name:		'Hugo Hoover'
@@ -36,7 +36,7 @@ social:
     desc:	Add me on google+
 
   - icon:	feed
-    url:	http://camporez.com/atom.xml
+    url:	http://huwung.github.io/atom.xml
     desc:	Subscribe to my feed
 
 menu:
