@@ -70,7 +70,7 @@ img {
 	font-size: 14px;
 	position: absolute;
 	z-index: 2;
-    background-color:#515151;padding: 13px;
+    background-color:#515151;
     border-top-right-radius:2em;
     filter:alpha(Opacity=90);
     opacity:0.9;
@@ -79,8 +79,8 @@ img {
 #post-info h1 {
 	font-weight: bold;
 	margin: 15px 0px;
-    background-color:#FF0000;
-    border-bottom-right-radius:2em;
+    background-color:#FF0000;padding: 13px;
+    border-top-right-radius:2em;
 }
 
 #post-info h2 {
