@@ -2,6 +2,7 @@
 layout: post
 title: "普通應用"
 quote:
+author:  hugo hoover
 image:  /media/img/2015-12-29-1920x1080.derHimmel.1.jpg
 video: false
 ---
