@@ -70,7 +70,7 @@ img {
 	font-size: 14px;
 	position: absolute;
 	z-index: 2;
-    background-color:#515151;
+    background-color:#515151;padding: 6px;
     border-top-right-radius:2em;
     filter:alpha(Opacity=90);
     opacity:0.9;
