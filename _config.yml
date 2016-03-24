@@ -1,58 +1,76 @@
-# Dependencies
-markdown:	redcarpet
-highlighter: pygments
-permalink: pretty
-paginate:	5
+# Site wide configuration
 
-# Permalinks
-permalink:	/blog/:title
-
-# Setup
-title:		Fenomen | 現象
-tagline:	'blog'
-description:	'My personal blog.'
-url:		https://huwung.github.io
-
-author:
-  name:		'Hugo Hoover'
-  url:
+title:            hugo bernstein's blog
+locale:           en_US
+url:
 
 
-# Custom vars
-icon:		/assets/images/icon.png
-cover:		/assets/images/cover.jpg
+# Jekyll configuration
 
-social:
-  - icon:	twitter
-    url:	https://twitter.com/huWANGplus
-    desc:	Follow me on twitter
+permalink:   /:categories/:title/
+markdown:    kramdown
+highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
+  - jekyll-gist
 
-  - icon:	github
-    url:	https://github.com/huwung
-    desc:	Fork me on github
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
 
-  - icon:	googleplus-alt
-    url:	https://google.com/
-    desc:	Add me on google+
 
-  - icon:	feed
-    url:	http://huwung.github.io/atom.xml
-    desc:	Subscribe to my feed
+# Octopress
 
-menu:
-  - title:	Home
-    url:    /index.html
+# Default extensions
+post_ext: md
+page_ext: md
 
-  - title:	About
-    url:	/about
+# Found in _templates/
+post_layout: post
+page_layout: page
 
-  - title:	molnplus
-    url:	/molnplus
+# Format titles with titlecase?
+titlecase: true
 
-copyright:
-  author:	molnplus
-  url:		http://molnplus.github.io
-  type_title:	Some rights reserved
-  type_url:	http://creativecommons.org/licenses/by-nc/2.5
 
-gems: [jekyll-paginate]
+# Site owner
+owner:
+  name: Hugo Bernstein
+  avatar: bio-photo.jpg
+  bio: "王虎, A father, Biology investigator, and Data Scientist."
+  email:
+  disqus-shortname:
+  twitter: #username
+  facebook: #username
+  google:
+    plus: #username
+    analytics:
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: #username
+  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  linkedin: #username
+  xing: #username
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+  codepen: #username
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]

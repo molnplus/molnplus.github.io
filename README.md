@@ -1,18 +1,23 @@
-#Thinny - The Infinite's Nymphet
+# Minimal Mistakes
 
-##About
-Thinny is a beautiful theme for [Jekyll](http://jekyllrb.com/).
+**[Minimal Mistakes](http://mmistakes.github.io/minimal-mistakes)** is a two column responsive Jekyll theme perfect for powering your GitHub hosted blog built. Compatible with Jekyll 3.0 and up.
 
-(if you're looking for the [Ghost](http://ghost.org) release of the theme, check [this page](https://github.com/camporez/Thinny/releases/tag/v0.3-alexandra))
+## Minimal Mistakes is all about:
 
-##Demo
-[![Preview image](https://f.cloud.github.com/assets/5755892/2002329/bdb5a052-85ed-11e3-8e00-a892910b6917.png)](http://camporez.com/)
-The above image is a preview of how the post header looks on Thinny.
+* Responsive templates. Looking good on mobile, tablet, and desktop.
+* Gracefully degrading in older browsers. Compatible with Internet Explorer 8+ and all modern browsers.
+* Minimal embellishments -- content first.
+* Optional large feature images for posts and pages.
+* Simple and clear permalink structure.
+* [Custom 404 page](http://mmistakes.github.io/minimal-mistakes/404.html) to get you started.
+* Support for Disqus Comments
 
-A live demo is available [on my personal blog](http://camporez.com/).
+![screenshot of Minimal Mistakes theme](http://mmistakes.github.io/minimal-mistakes/images/mm-theme-post-600.jpg)
 
-##More information
-Read the blog post [here](http://camporez.com/blog/thinny-2/).
+See a [live version of Minimal Mistakes](http://mmistakes.github.io/minimal-mistakes/) hosted on GitHub.
 
-##Reporting issues
-You can report an issue or request a feature [here](http://github.com/camporez/camporez.github.io/issues) or on [twitter](http://twitter.com/iancamporez).
+## Getting Started
+
+Minimal Mistakes takes advantage of Sass and data files to make customizing easier. These features require [Jekyll 2.x](https://github.com/mmistakes/minimal-mistakes/releases/tag/2.1.3) and will not work with older versions of Jekyll.
+
+To learn how to install and use this theme check out the [Setup Guide](http://mmistakes.github.io/minimal-mistakes/theme-setup/) for more information.
