@@ -14,7 +14,7 @@ body {
 
 .navigation-wrapper {
 	@include container;
-    background-color: #E10D75;
+    background-color: #819FA9;
 	padding: 2em 0 1em;
 	font-family: $heading-font;
 	font-weight: 700;
@@ -40,6 +40,11 @@ body {
 	@media #{$x-large} {
 		@include grid(12,1.5);
 		@include prefix(12,2);
+        st {
+            color: White;
+            font-family: Impact;
+            font-size: 25px;
+        }
 	}
 }
 
@@ -355,7 +360,6 @@ $button-size: 1.5rem;
 		font-style: italic;
 	}
 	a, a:hover {
-    color: yellow;
 		border-bottom: 0 solid transparent;
 	}
 }

@@ -1,7 +1,7 @@
 # Site wide configuration
 
-title:            hugo bernstein's blog
-locale:           en_US
+title:  molnplus / beta
+locale:  en_US
 url:
 
 
@@ -44,10 +44,10 @@ owner:
   name: Hugo Bernstein
   avatar: bio-photo.jpg
   bio: "王虎, A father, Biology investigator, and Data Scientist."
-  email:
+  email:  wang.hu.molnplus@gmail.com
   disqus-shortname:
-  twitter: #username
-  facebook: #username
+  twitter: huWANGplus #username
+  facebook: Hu Wong #username
   google:
     plus: #username
     analytics:
